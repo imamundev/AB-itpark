@@ -1,0 +1,286 @@
+
+:root{
+    --main: #A460F9;
+}
+
+*{
+    color: #fff;
+
+}
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(23, 23, 23) !important;
+  }
+#logo{
+
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: flex-end;
+    /* text-align: left; */
+}
+nav {
+    height: 100px;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+     
+}
+
+.logo{
+    color: #fff;
+}
+
+ 
+nav a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.05px;
+    padding: 0 10px;
+    
+
+
+}
+ a::after{
+    content: "";
+    position: absolute;
+    background-color: var(--main);
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;
+}
+#hero{
+    font-size: 50px;
+    text-align: left;
+
+}
+#herou{
+    height: 10px;
+    width: 200px;
+    background-color: var(--main);
+    margin-left: 25px;
+    margin-top: -40px;
+    
+}
+
+#heroimg{
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#herod{
+    margin-top: 20px;
+}
+#herob1{
+    background-color: var(--main);
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+
+/* eee  */
+
+.buttonall{
+    background-color: var(--main);
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.r1c{
+    display: inline-block;
+}
+.c1{
+    margin: 0;
+}
+.c2{
+    font-size: 60px;
+}
+.row2in1 {
+    color: var(--main);
+    margin-top: 0;
+    margin-right: -7px;
+}
+
+
+.r2{
+    box-shadow:  0px 3px 10px  #000, /* top */
+    0px -3px 10px #000; /* bottom */
+    padding-bottom: 25px;
+
+    
+}
+#co1{
+    margin-top: 40px;
+    text-align: center;
+}
+#co2{
+    margin-top: 40px;
+    text-align: center;
+}
+#co3{
+    margin-top: 40px;
+    text-align: center;
+}
+#ours{
+    height: 200px;
+    font-size: xx-large; 
+    text-align: center; 
+    align-items: center;
+    margin: 150px 100px 100px 100px;
+}
+
+.featured{
+    display: inline-block;
+    
+}
+.our{
+    font-size: 100px;
+}
+
+.our2{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.see{
+    margin: 0;
+}
+
+.cardss{
+    background-color: rgb(23, 23, 23);
+}
+
+.cardu{
+    background-color: var(--main);
+    height: 3px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.xe{
+    margin-bottom: 75px;
+}
+
+.cardall{
+    border: 2px white solid;
+    min-height: 500px;
+    
+}
+.cardin{
+    /* margin-left: 20px; */
+    text-align: center;
+}
+
+#c2{
+    height: auto;
+    
+}
+
+.us{
+    color: var(--main);
+}
+.aboutlist{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}
+
+.aboutul{
+    margin: 25px;
+    padding: 0;
+}
+.uilist{
+    list-style: square;
+
+}
+.founder{
+
+    text-align: start;
+
+}
+.ceo{
+    text-align: start;
+}
+
+.review{
+    border: #A460F9 2px solid;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin-left: 60px; */
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.checked{
+    color: #A460F9;
+}
+
+.koma{
+    display: inline-block;
+}
+
+.in{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#sent{
+    background-color: var(--main);
+    padding: 17px;
+    border-radius: 10px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fu{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+
+.sees{
+    background-image: url('img/SEE\ OUR\ SERVICES.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#ceo{
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+ 
